@@ -14,8 +14,10 @@
 }
 
 :root{
-    --bg-color              : #FFF;
+    --bg-color              : #FFFFFF;
+    --second-bg-color       : #050505;
     --text-color            : #050505;
+    --second-text-color     : #FFFFFF;
     --main-color            : #050505;
     --second-color          : #9C9C9A;
     --border                : 1px #DADFE5 solid;
@@ -28,6 +30,20 @@
 }
 
 footer{
-    background-color: blue;
+    /*background-color: blue;*/
     width: 100%;
 }
+
+.content-footer{
+    background-color: var(--second-bg-color);
+    color: var(--second-text-color);
+    padding: 15px;
+    font-size: var(--font-small);
+    text-align: center;
+}
+
+.fa-copyright{
+    margin-right: 5px;
+}
+
+

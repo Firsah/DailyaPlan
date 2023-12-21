@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dailyThos</title>
     <!--CSS Style indeks-->
-    <link rel="stylesheet" href="assets/css/style_indeks.css">
+    <link rel="stylesheet" href="assets/css/style_index.css">
     <!--CSS Style Hak Akses -->
     <link rel="stylesheet" href="assets/css/style_hakAkses.css">
     <!--CSS Style Footer -->

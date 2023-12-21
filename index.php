@@ -1,11 +1,9 @@
 <?php
-    require_once('header.php');
+    include('header.php');
 ?>
 
-<div class="containerr">
-    <div class="judul">Ruang Perencanaan</div>
-        <div class="content">
-             <div class="card">
+      <section id="content">
+        <div class="card">
                 <div class="sampul-awal">
                     <img src="assets/img/sampul/sampul1.png" alt="Sampul">
                 </div>
@@ -188,9 +186,7 @@
                 </div>
                 </a>
             </div>
-
-        </div>
-    </div>
+      </section>      
 
     <!-------------- Modal Tambah Ruangan  ---------->
     <div class="btn-tambah-ruangan">
