@@ -201,7 +201,7 @@ body{
 
 .containerr .judul{
     text-align: left;
-    margin-top: 110px;
+    margin-top: 80px;
     font-size: 30px;
     /*border: 1px solid blue;*/
 }
@@ -286,8 +286,9 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+    padding-right: 15px;
     margin-top: 45px;
-    margin-right: -105px;
+    margin-right: -90px;
     width:auto;
     background-color: var(--bg-color);
     border:var(--border);
@@ -297,12 +298,14 @@ body{
 }
 
 .isi-menu-card ul{
-    padding: 10px 20px 0px 10px;
+    padding: 10px 0px 0px 10px;
     font-size: var(--font-extraSmall);
 }
 
-.isi-menu-card,ul,li,#icon-menu-card{
+#icon-menu-card{
     padding-right: 7px;
+    margin-right: 8px;
+    /*border: 1px solid red;*/
 }
 
 .isi-menu-card ul li{

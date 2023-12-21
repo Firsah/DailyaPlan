@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/style_indeks.css">
     <!--CSS Style Hak Akses -->
     <link rel="stylesheet" href="assets/css/style_hakAkses.css">
+    <!--CSS Style Footer -->
+    <link rel="stylesheet" href="assets/css/style_footer.css">
     <!--Font Awesome-->
 	<link rel="stylesheet" href="assets/fontawesome-free-6.5.0-web/css/all.css">
     <!--Box Icon-->
@@ -22,10 +24,10 @@
     <script src="assets/js/jquery.js"></script>
 <body>
     <div class="navbar-containerr">
-        <a href="#" class="logo"><img src="assets/img/logo dailytos.png" width="48" height="30" alt="Logo Dailythos"></a>
+        <a href="index.php" class="logo"><img src="assets/img/logo dailytos.png" width="48" height="30" alt="Logo Dailythos"></a>
         
         <ul class="navbar">
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="index.php" class="active">Home</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="login.php">Logout</a></li>
         </ul>

@@ -18,7 +18,7 @@
                 <div class="isi-menu-card">
                     <ul>
                         <li><i class="fa-regular fa-pen-to-square fa-sm" style="color: #9c9c9a;" id="icon-menu-card"></i><a href="#">Ubah</a></li>
-                        <li><i class="fa-regular fa-eye fa-sm" style="color: #9C9C9A;" id="icon-menu-card"></i><a href="hak_akses.php">Hak Akses</a></li>
+                        <li><i class="fa-regular fa-eye fa-sm" style="color: #9C9C9A;" id="icon-menu-card"></i><a href="hak_akses.php">Detail Anggota</a></li>
                         <li><i class="fa-regular fa-trash-can fa-sm" style="color: #9C9C9A;" id="icon-menu-card"></i><a href="#">Hapus</a></li>
                     </ul>
                 </div>
@@ -240,13 +240,11 @@
                </form>
             </div>
         </div>
-
-    
-    
+        
     <script>
         VirtualSelect.init({ 
             ele: '#multipleSelect'
         });
     </script>
 
-<?php require_once('footer.php') ?>
+<?php include('footer.php') ?>

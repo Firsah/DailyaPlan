@@ -16,9 +16,9 @@
         </thead>
         <tbody>
             <tr>
-                <td>1.</td>
+                <td align="center">1.</td>
                 <td>Rizal Salpatura</td>
-                <td><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #050505;margin-right : 5px;"></i>Lihat</button></a></td>
+                <td align="center"><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #9C9C9A;margin-right : 5px;"></i>Lihat</button></a></td>
                 <td>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
@@ -26,9 +26,9 @@
                 </td>
             </tr>
             <tr>
-                <td>2.</td>
+                <td align="center">2.</td>
                 <td>Zainal  Amanah</td>
-                <td><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #050505;margin-right : 5px;"></i>Lihat</button></a></td>
+                <td align="center"><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #9C9C9A;margin-right : 5px;"></i>Lihat</button></a></td>
                 <td>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
@@ -36,9 +36,9 @@
                 </td>
             </tr>
             <tr>
-                <td>3. </td>
+                <td align="center">3. </td>
                 <td>Dina Jum'at</td>
-                <td><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #050505;margin-right : 5px;"></i>Lihat</button></a></td>
+                <td align="center"><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #9C9C9A;margin-right : 5px;"></i>Lihat</button></a></td>
                 <td>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
@@ -46,9 +46,9 @@
                 </td>
             </tr>
             <tr>
-                <td>4.</td>
+                <td align="center">4.</td>
                 <td>Gendhis Desa</td>
-                <td><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #050505;margin-right : 5px;"></i>Lihat</button></a></td>
+                <td align="center"><a href="detailAnngota.php"><button class="btn btn-sm" id="btn-detail"><i class="fa-solid fa-magnifying-glass fa-sm" style="color: #9C9C9A;margin-right : 5px;"></i>Lihat</button></a></td>
                 <td>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">

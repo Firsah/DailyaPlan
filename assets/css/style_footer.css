@@ -1,0 +1,33 @@
+@font-face{
+    font-family: Inter;
+    src: url('../font/inter/Inter-Regular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color              : #FFF;
+    --text-color            : #050505;
+    --main-color            : #050505;
+    --second-color          : #9C9C9A;
+    --border                : 1px #DADFE5 solid;
+    --font-extraSmall       : 12px;
+    --font-small            : 14px;
+    --font-medium           : 16px;
+    --font-large            : 18px;
+    --font-ExtraLarge       : 20px;
+    --font-ExtraExtraLarge  : 22px;
+}
+
+footer{
+    background-color: blue;
+    width: 100%;
+}
