@@ -29,20 +29,21 @@
     --font-ExtraExtraLarge  : 22px;
 }
 
-footer{
-    /*background-color: blue;*/
-    width: 100%;
-}
 
-.content-footer{
-    background-color: var(--second-bg-color);
-    color: var(--second-text-color);
-    padding: 15px;
-    font-size: var(--font-small);
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: var(--text-color);
+    padding: 0px;
     text-align: center;
+    font-size: var(--font-small);
+    position: relative;
 }
 
 .fa-copyright{
+    position: absolute;
+    bottom: 0;
     margin-right: 5px;
 }
 

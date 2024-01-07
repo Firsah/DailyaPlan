@@ -1,0 +1,587 @@
+  
+:root{
+    --bg-color              : #FFF;
+    --text-color            : #050505;
+    --main-color            : #050505;
+    --second-color          : #9C9C9A;
+    --border                : 1px #DADFE5 solid;
+    --font-extraSmall       : 12px;
+    --font-small            : 14px;
+    --font-medium           : 16px;
+    --font-large            : 18px;
+    --font-ExtraLarge       : 20px;
+    --font-ExtraExtraLarge  : 22px;
+}
+
+body{
+    font-size: var(--font-medium);
+}
+
+
+.container-profile{
+    /* background-color: red; */
+}
+
+#content-profile{
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 80px;
+    padding: 30px;
+    border-radius: 10px;
+    border: var(--border);
+    /* box-shadow: 1px 2px  rgba(0, 0, 0,0.18); */
+}
+
+
+.foto-profile{
+    /* border: var(--border); */
+}
+
+.foto-profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: var(--border);
+}
+
+
+.card-profile{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: var(--border); */
+}
+
+.kolom{
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: var(--border);
+}
+
+.jdl-kolom{
+    width: 200px;
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+.isi-kolom{
+    font-weight: 400;
+    /* border: 1px solid blue; */
+}
+
+.btn-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-editProfiles{
+    padding: 5px 15px;
+    margin-right: 15px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-color: #050505;
+    cursor: pointer;
+}
+
+.btn-editProfiles a{
+    font-size: var(--font-small);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-editPasswords{
+    padding: 5px 15px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-editPasswords a{
+    font-size: var(--font-small);
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* =========== Style Modal  Edit Profile ============ */
+.bg-modal-edit-profile{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-edit-profile{
+    width: 28%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.modal-edit-profile .header-ep{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-bottom: var(--border);
+}
+
+.header-ep .jud{
+    font-size: var(--font-large);
+    font-weight: 500;
+}
+
+.header-ep .close-btn-ep{
+    color: var(--second-color);
+    cursor: pointer;
+}
+
+.content-ep{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    padding: 15px 20px;
+    margin-bottom: 0px;
+    /*border: 1px solid red;*/
+}
+
+
+.content-ep .cont{
+    margin-bottom: 15px;
+    font-size: var(--font-small);
+}
+
+.label{
+    margin-bottom: 5px;
+}
+
+input[type = text]{
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type = email]{
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #FFF;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type = number]{
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    font-size: var(--font-small);
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding: 10px;
+} 
+
+
+input[type = file]{
+    height: 36px;
+    width: 100%;
+    font-size: var(--font-small);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    color: var(--second-color);
+    border: 1px solid #050505;
+    padding: 5px;
+}
+
+.ket-sampul{
+    margin-top: 5px;
+    font-size: var(--font-extraSmall);
+}
+
+input[type = submit]{
+    height: 36px;
+    width:auto;
+    padding: 5px 15px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    font-size: var(--font-small);
+    background-color: #050505;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/* =========== Style Modal  Edit Password   ============ */
+.bg-modal-edit-password{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-edit-password{
+    width: 28%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.modal-edit-password .header-epswd{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-bottom: var(--border);
+}
+
+.header-epswd .jud{
+    font-size: var(--font-large);
+    font-weight: 500;
+}
+
+.header-epswd .close-btn-epswd{
+    color: var(--second-color);
+    cursor: pointer;
+}
+
+.content-epswd{
+    width: 100%;
+    height: 25 0px;
+    overflow: auto;
+    padding: 15px 20px;
+    margin-bottom: 0px;
+    /*border: 1px solid red;*/
+}
+
+
+.content-epswd .cont{
+    margin-bottom: 15px;
+    font-size: var(--font-small);
+}
+
+.label{
+    margin-bottom: 5px;
+}
+
+input[type = email]:nth-child(1){
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+  
+input[type = password]{
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type = submit]{
+    height: 36px;
+    width:auto;
+    padding: 5px 15px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    font-size: var(--font-small);
+    background-color: #050505;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/*=======   RESPONSIVE FOR  Desktop =======*/
+@media screen and (max-width: 1280px) {
+    #content-profile{
+        gap: 50px;
+        border-radius: 25px 0px;
+    }
+
+    .foto-profile img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .kolom{
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+    }
+
+
+    /* -------- Style Modal  Edit Profile ------ */
+    .bg-modal-edit-profile{
+        display:none;
+    }
+
+    .modal-edit-profile{
+        width: 50%;
+        display: none;
+    }
+
+    .content-ep{
+        width: 100%;
+        height: 610px;
+    }
+
+    
+    /* --------- Style Modal  Edit Password   -------- */
+    .bg-modal-edit-password{
+        display:none;
+    }
+
+    .modal-edit-password{
+        display: none;
+    }
+
+    .content-epswd{
+        height: 245px;
+    }
+}
+
+
+/*=======  RESPONSIVE FOR  Tablet & Ipad =======*/
+@media screen and (max-width: 1090px) {
+    #content-profile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 25px 0px;
+        border: var(--border);
+    }
+
+    .foto-profile{
+        margin-bottom: 30px;
+        /* border: var(--border); */
+    }
+
+    .foto-profile img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .card-profile{
+        width: 90%;
+    }
+    
+    .container-profile .judul-index{
+        text-align: left;
+        margin-left: 40px;
+        /* background-color: red; */
+    }
+
+    .kolom{
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+    }
+
+    /* -------- Style Modal  Edit Profile ------ */
+    .bg-modal-edit-profile{
+        display:none;
+    }
+
+    .modal-edit-profile{
+        width: 70%;
+        display: none;
+    }
+
+    .content-ep{
+        width: 100%;
+        height: 610px;
+    }
+
+    /* --------- Style Modal  Edit Password   -------- */
+    .bg-modal-edit-password{
+        display:none;
+    }
+
+    .modal-edit-password{
+        width: 60%;
+        display: none;
+    }
+
+    .content-epswd{
+        height: 245px;
+    }
+}
+
+
+/*=======RESPONSIVE FOR APPLE SMARTPHONE & ANDROID SMARTPHONE=======*/
+@media screen and (max-width: 480px){
+    #content-profile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px 0px 30px  0px;
+        border-radius: none;
+        border: none;
+    }
+
+    .container-profile .judul-index{
+        text-align: center;
+        margin-left: 0px;
+        /* background-color: red; */
+    }
+
+
+    .foto-profile{
+        margin-bottom: 30px;
+        /* border: var(--border); */
+    }
+
+    .foto-profile img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .card-profile{
+        width: 100%;
+    }
+    
+    .kolom{
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        /* border: 1px solid  red; */
+    }
+
+    .jdl-kolom{
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 10px;
+        /* border: 1px solid red; */
+    }
+    .isi-kolom{
+        font-weight: 400;
+        /* border: 1px solid blue; */
+    }
+
+
+    .btn-profile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .btn-editProfiles{
+        padding: 5px 120px;
+        margin-right: 0px;
+        border: 1px solid #050505;
+        border-radius: 5px;
+        background-color: #050505;
+        cursor: pointer;
+    }
+    
+    .btn-editProfiles a{
+        font-size: var(--font-small);
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .btn-editPasswords{
+        padding: 5px 110px;
+        border: 1px solid #050505;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .btn-editPasswords a{
+        font-size: var(--font-small);
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+
+    /* =========== Style Modal  Edit Profile ============ */
+    .bg-modal-edit-profile{
+        display:none;
+    }
+
+    .modal-edit-profile{
+        width: 85%;
+        display: none;
+    }
+
+    .content-ep{
+        height: 520px;
+    }
+
+    /* --------- Style Modal  Edit Password   -------- */
+    .bg-modal-edit-password{
+        display:none;
+    }
+
+    .modal-edit-password{
+        width: 85%;
+        display: none;
+    }
+
+    .content-epswd{
+        height: 245px;
+    }
+}
+
+
+
+
+
+
+
+

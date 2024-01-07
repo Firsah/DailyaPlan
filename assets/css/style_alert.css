@@ -1,0 +1,289 @@
+:root{
+    --bg-color              : #FFF;
+    --text-color            : #050505;
+    --main-color            : #050505;
+    --second-color          : #9C9C9A;
+    --border                : 1px #DADFE5 solid;
+    --font-extraSmall       : 12px;
+    --font-small            : 14px;
+    --font-medium           : 16px;
+    --font-large            : 18px;
+    --font-ExtraLarge       : 20px;
+    --font-ExtraExtraLarge  : 22px;
+}
+
+body{
+    font-size: var(--font-medium);
+}
+
+
+
+/* =========== Style Modal Alert Tambah Ruang Perencanaan  Berhasil ============ */
+.bg-modal-alert-berhasil{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-alert-tr-berhasil{
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.content-alert{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    /* margin-bottom: 40px; */
+    /* border-bottom: var(--border); */
+}
+
+.content-alert .fa-check {
+    width: auto;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px  solid #4ECB71;
+}
+
+.content-alert .jud{
+    font-size: var(--font-ExtraExtraLarge);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.btn-alert{
+    margin-top: 20px; 
+}
+
+.btn-alert a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #050505;
+    border-radius: 10px;
+    background-color: #050505;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+
+/* =========== Style Modal Alert Tambah Ruang Perencanaan Gagal ============ */
+.bg-modal-alert-gagal{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-alert-tr-gagal{
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.content-alert .fa-exclamation {
+    width: auto;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px  solid #fe3f40;
+}
+
+
+/* =========== Style Modal Alert Edit Ruang Perencanaan Berhasil ============ */
+.bg-modal-alert-edit-berhasil{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-alert-edit-berhasil{
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.content-alert .fa-check {
+    width: auto;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px  solid #4ECB71;
+}
+
+
+/* =========== Style Modal konfirmasi pemberian Hak Akses ============ */
+.bg-modal-alert-konfirmasi-pemberian-hakAkses{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-alert-konfirmasi-pemberian-hakAkses{
+    width: 22%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.content-alert{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    /* margin-bottom: 40px; */
+    /* border-bottom: var(--border); */
+}
+
+.content-alert .fa-question {
+    width: auto;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px  solid #FFD43B;
+}
+
+.content-alert .jud{
+    font-size: var(--font-ExtraExtraLarge);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.btn-alert{
+    margin-top: 20px; 
+}
+
+.btn-alert .btn-oke{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #050505;
+    border-radius: 10px;
+    background-color: #050505;
+    padding: 5px 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-alert .btn-batal{
+    text-decoration: none;
+    color: #050505;
+    border: 1px solid #050505;
+    border-radius: 10px;
+    background-color: var(--bg-color);
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+/* =========== Style Modal konfirmasi pemutusan Hak Akses ============ */
+.bg-modal-alert-konfirmasi-pemutusan-hakAkses{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+    opacity:.80;
+    z-index: 250;
+    opacity:0.8;
+    display:none;
+}
+
+.modal-alert-konfirmasi-pemutusan-hakAkses{
+    width: 22%;
+    height: auto;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    border-radius: 5px;
+    background:var(--bg-color);
+    border: var(--border);
+    display: none;
+}
+
+.content-alert{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    /* margin-bottom: 40px; */
+    /* border-bottom: var(--border); */
+}
+
+.content-alert .fa-question {
+    width: auto;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px  solid #fe3f40;
+}
+
+
+
+

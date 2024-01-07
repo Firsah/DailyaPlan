@@ -27,19 +27,32 @@
     --font-ExtraExtraLarge  : 22px;
 }
 
+
+.containerr{
+
+}
+
 .judul{
-    margin-bottom: 50px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    width: 90%;
+    font-size: 28px;
     /*border: 1px solid  red;*/
 }
 
 .contentt{
     border: var(--border);
     padding: 15px 15px 15px 15px;
-    width: 100%;
+    margin: auto;
+    width: 89%;
 
 }
 
+
 table{
+    width: 100%;
+    table-layout: auto;  
     font-size: var(--font-medium);
 }
 
@@ -54,11 +67,14 @@ th.sorting{
     /*background-color: blue !important;*/
 }
 
+
+
 div.form-check.form-switch{
     display: flex;
     justify-content: center;
     /*background-color: blue;*/
 }
+
 
 .form-check-input{
     position: relative;
@@ -71,3 +87,4 @@ div.form-check.form-switch{
 isi-menu-card, ul, li, #icon-menu-card{
     padding-right: 0px  !important;
 }
+

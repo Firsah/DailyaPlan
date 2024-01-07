@@ -17,7 +17,7 @@
     <!-- Bootsrap -->
     <link rel="stylesheet" href="assets/bootstrap-5.3.2/dist/css/bootstrap.min.css">
     <!-- Data Tables -->
-    <link rel="stylesheet" href="assets/DataTables/DataTables-1.13.8/css/dataTables.bootstrap5.min.css"> 
+    <!-- <link rel="stylesheet" href="assets/DataTables/DataTables-1.13.8/css/dataTables.bootstrap5.min.css">  -->
     <!-- Virtual Select -->
     <link rel="stylesheet" href="assets/css/virtual-select.min.css">
     <!--JQUERY-->
@@ -27,8 +27,8 @@
         <a href="index.php" class="logo"><img src="assets/img/logo dailytos.png" width="48" height="30" alt="Logo Dailythos"></a>
         
         <ul class="navbar">
-            <li><a href="index.php" class="active">Home</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="index.php" class="#" selected>Home</a></li>
+            <li><a href="profile.php">Profile</a></li>
             <li><a href="login.php">Logout</a></li>
         </ul>
 

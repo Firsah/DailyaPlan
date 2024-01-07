@@ -67,6 +67,7 @@ body{
     transition: all .5s  ease;
     border-bottom: var(--border);
     /*border: 1px  solid green;*/
+    /*display: none;*/
 }
 
 .logo{
@@ -191,25 +192,41 @@ body{
 
 
 /* ========= Container =========== */
+.container-index{
+    width: 100%;
+    /* border: 1px  solid red; */
+}
+
+.judul-index{
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    width: 90%;
+    font-size: 28px;
+    /*border: 1px solid  red;*/
+}
+
 #content{
-    /*width: 90%;
+    width: 90%;
     height: auto;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 0px;
+    margin-bottom: 50px;
     display: flex;
+    justify-content: safe;
     flex-direction: row;
-    flex-wrap: wrap;*/
-    width: 100%;
-    background-color: blue;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* background-color: yellow; */
 }
 
 .card{
-    width: 15%;
+    width: 320px;
     height:auto;
     position: relative;
     display: flex;
     justify-content: center;
-    margin:0px 25px 25px 0px;
+    /* margin:0px 2% 25px 0px; */
     border-radius: 10px;
     border: 1px #DADFE5 solid;
     -webkit-box-shadow: 0px 6px 3px -4px rgba(0,0,0,0.18);
@@ -432,7 +449,7 @@ body{
 
 .content-mtr{
     width: 100%;
-    height: 430px;
+    height: 460px;
     overflow: auto;
     padding: 15px 20px;
     margin-bottom: 0px;
@@ -443,6 +460,10 @@ body{
 .content-mtr .cont{
     margin-bottom: 15px;
     font-size: var(--font-small);
+}
+
+.label{
+    margin-bottom: 5px;
 }
 
 input[type = text]{
@@ -506,7 +527,7 @@ input[type = submit]{
     cursor: pointer;
 }
 
-/*======= Desktop =======*/
+/*=======   RESPONSIVE FOR  Desktop =======*/
 @media screen and (max-width: 1280px) {
     .navbar-containerr{
         padding: 5px 5%;
@@ -523,15 +544,17 @@ input[type = submit]{
         right:7%;
     }
 
+    #content{
+        gap: 70px;
+    }
+
     .card{
-        width: 28%;
-        margin-bottom: 50px;
-        margin-right: 50px;
+        width: 320px;
     }
 
 }
 
-/*=======Tablet & Ipad =======*/
+/*=======  RESPONSIVE FOR  Tablet & Ipad =======*/
 @media screen and (max-width: 1090px) {
     #menu-icon{
         display: block;
@@ -583,18 +606,22 @@ input[type = submit]{
         top : 65px;
         right:10%;
     }
+
+
+    .judul-index{
+        width: 100%;
+        text-align: center;
+        /*border: 1px solid  red;*/
+    }
     
-    .content{
-        height: auto;
-        margin-top: 130px;
-        display: flex;
+    
+    #content{
         justify-content: center;
-        /*border: 1px solid darkcyan;*/
+        gap: 70px;
     }
 
     .card{
-        width: 50%;
-        margin-bottom: 50px;
+        width: 400px;
     }
 
     .status{
@@ -621,8 +648,8 @@ input[type = submit]{
     .modal-tambah-ruangan{
         width: 50%;
     }
-    
 }
+
 
 /*=======RESPONSIVE FOR APPLE SMARTPHONE & ANDROID SMARTPHONE=======*/
 @media screen and (max-width: 480px){
@@ -673,18 +700,25 @@ input[type = submit]{
         right:6%;
     }
 
-    .content{
+    .judul-index{
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        /*border: 1px solid  red;*/
+    }
+
+    #content{
         height: auto;
-        margin-top: 120px;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
-        /*border: 1px solid darkcyan;*/
+        gap: 50px;
+        /*background-color: red;*/
     }
 
     .card{
+        margin: auto;
         width: 100%;
-        margin-bottom: 50px;
-        margin-right: 0px;
     }       
 
     .status{
@@ -711,7 +745,7 @@ input[type = submit]{
     }
 
     .modal-tambah-ruangan{
-        width: 80%;
+        width: 85%;
     }
 
     .header-mtr .jud{
